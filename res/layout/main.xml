@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_weight="0">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NewChannelButton"
+                android:id="@+id/buttonNewChannel" android:focusable="true" android:layout_weight="1"
+                android:clickable="true" android:onClick="addChannel"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/UpdateButton"
+                android:id="@+id/buttonUpdateButton" android:layout_weight="1" android:onClick="updateFeed"/>
+    </LinearLayout>
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/listView" android:layout_weight="1"/>
+</LinearLayout>
