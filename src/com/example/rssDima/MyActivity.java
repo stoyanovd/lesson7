@@ -162,10 +162,10 @@ public class MyActivity extends Activity {
         Intent intent = new Intent(getApplicationContext(), UpdatingService.class);
         intent.putExtra("all_id", true);
 
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(getApplicationContext(), 132423421, intent, 0);
+        PendingIntent pendingIntent = PendingIntent.getService(getApplicationContext(), 132423421, intent, 0);
 
         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-        alarmManager.set(AlarmManager.RTC_WAKEUP, AlarmManager.INTERVAL_HALF_HOUR, pendingIntent);
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, 15000, AlarmManager.INTERVAL_HALF_HOUR, pendingIntent);
 
     }
 }

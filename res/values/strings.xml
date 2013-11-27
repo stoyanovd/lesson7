@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">rssDima</string><string name="ClearSpace">Some edits have not symbols</string><string name="ChangeChannelButton">Save</string><string name="SuccessfulUpdate">Updating was successful</string><string name="DeleteChannelButton">Delete</string><string name="URLTextView">URL</string><string name="ChannelNameTextView">Name</string><string name="NewChannelButton">New</string><string name="UpdateButton">Update</string><string name="LastUpdateTextView">Last update:</string><string name="UpdateThisChannelButton">Update this channel</string><string name="ErrorWithInternet">Some channels can not be updated</string><string name="ErrorChannel">Some strange error channel</string><string name="UpdateOneChannel">Successful update of</string><string name="HintHttp">Do not forget to type http:// prefix</string>
+    <string name="app_name">rssDima</string>
+    <string name="ClearSpace">Some edits have not symbols</string>
+    <string name="ChangeChannelButton">Save</string>
+    <string name="SuccessfulUpdate">Updating was successful</string>
+    <string name="DeleteChannelButton">Delete</string>
+    <string name="URLTextView">URL</string>
+    <string name="ChannelNameTextView">Name</string>
+    <string name="NewChannelButton">New</string>
+    <string name="UpdateButton">Update</string>
+    <string name="LastUpdateTextView">Last update:</string>
+    <string name="UpdateThisChannelButton">Update this channel</string>
+    <string name="ErrorWithInternet">Some channels can not be updated</string>
+    <string name="ErrorChannel">Some strange error channel</string>
+    <string name="UpdateOneChannel">Successful update of</string>
+    <string name="HintHttp">If you do not type http:// prefix, it will be added.</string>
 </resources>

@@ -16,7 +16,7 @@
             android:text="@string/UpdateThisChannelButton"
             android:id="@+id/buttonUpdateThisChannel" android:layout_weight="0" android:onClick="updateChannel"/>
     <ListView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/listView" android:layout_weight="1"/>
 </LinearLayout>

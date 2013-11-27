@@ -69,7 +69,10 @@ public class ChannelChangeActivity extends Activity {
                     Toast.makeText(getApplicationContext(), getString(R.string.ClearSpace), Toast.LENGTH_SHORT).show();
                 else {
                     getIntent().putExtra("new_name", name.getText().toString());
-                    getIntent().putExtra("new_address", url.getText().toString());
+                    String new_url = url.getText().toString();
+                    if (!new_url.contains("http"))
+                        new_url = "http://" + new_url;
+                    getIntent().putExtra("new_address", new_url);
                     changing();
                     finish();
                 }
